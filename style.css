@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.score-display {
+  position: relative;
+}
+
+.score-circle {
+  border: 10px solid gray;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.score-circle span {
+  font-size: 2em;
+}
+
+.sub-scores {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.sub-score {
+  font-size: 1.5em;
+}

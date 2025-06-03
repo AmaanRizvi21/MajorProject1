@@ -1,0 +1,211 @@
+<!-- <% layout("/layouts/boilerPlate") %>
+
+<body>
+  <div class="col-8 offset-2 needs-validation" novalidate>
+    <br>
+    <h3>Create New Listing</h3>
+    <form method="post" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+      <div class="">
+        <label for="titleid" class="form-label">Title:</label>
+        <input
+          id="titleid"
+          type="text"
+          name="listing[title]"
+          placeholder="Enter Title"
+          class="form-control"
+          required 
+        />
+        <div class="invalid-feedback">
+          Titile is required.
+        </div>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="descriptionid" class="form-label">Description:</label>
+        <textarea
+          id="descriptionid"
+          name="listing[description]"
+          class="form-control"
+          required
+        ></textarea>
+        <div class="invalid-feedback">
+          Description is required.
+        </div>
+      </div>
+      <br />
+
+      <div>
+        <label for="imageid" class="form-label">Image:</label>
+        <input
+          id="imageid"
+          type="file"
+          name="listing[image]"
+          placeholder="Enter Image URL"
+          class="form-control"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="priceid" class="form-label">Price:</label>
+        <input
+          id="priceid"
+         
+          name="listing[price]"
+          placeholder="&#8377 2,100"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">
+          Enter a Valid Price.
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="locationid" class="form-label">Location:</label>
+          <input
+            id="locationid"
+            type="text"
+            name="listing[location]"
+            placeholder="Lucknow"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">
+            Location is required.
+          </div>
+        </div>
+        <div class="col-md-8">
+          <label for="countryid" class="form-label">Country:</label>
+          <input
+            id="countryid"
+            type="text"
+            name="listing[country]"
+            placeholder="India"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">
+            Country is required.
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <button type="submit" class="btn btn-primary">Add</button>
+      <br /><br />
+    </form>
+  </div>
+</body> -->
+
+
+
+<% layout("/layouts/boilerPlate") %>
+
+<body>
+  <div class="col-8 offset-2 needs-validation" novalidate>
+    <br>
+    <h3>Create New Listing</h3>
+    <form method="post" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+      <div class="">
+        <label for="titleid" class="form-label">Title:</label>
+        <input
+          id="titleid"
+          type="text"
+          name="listing[title]"
+          placeholder="Enter Title"
+          class="form-control"
+          required 
+        />
+        <div class="invalid-feedback">
+          Titile is required.
+        </div>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <br />
+      <div>
+        <label for="descriptionid" class="form-label">Description:</label>
+        <textarea
+          id="descriptionid"
+          name="listing[description]"
+          class="form-control"
+          required
+        ></textarea>
+        <div class="invalid-feedback">
+          Description is required.
+        </div>
+      </div>
+      <br />
+
+      <div>
+        <label for="imageid" class="form-label">Image:</label>
+        <input
+          id="imageid"
+          type="file"
+          name="listing[image]"
+          placeholder="Enter Image URL"
+          class="form-control"
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="priceid" class="form-label">Price:</label>
+        <input
+          id="priceid"
+          name="listing[price]"
+          placeholder="&#8377 2,100"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">
+          Enter a Valid Price.
+        </div>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label for="locationid" class="form-label">Location:</label>
+          <input
+            id="locationid"
+            type="text"
+            name="listing[location]"
+            placeholder="Lucknow"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">
+            Location is required.
+          </div>
+        </div>
+        <div class="col-md-8">
+          <label for="countryid" class="form-label">Country:</label>
+          <input
+            id="countryid"
+            type="text"
+            name="listing[country]"
+            placeholder="India"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">
+            Country is required.
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <button type="submit" class="btn btn-primary">Add</button>
+      <br /><br />
+    </form>
+  </div>
+</body>
